@@ -8,7 +8,13 @@
   <style>
     .link-to-amazon{
       color:rgb(0,113,133);
+      transition:color 0.15s;
     }
+
+    .link-to-amazon:hover{
+      color: orangered;
+    }
+
     .title1{
       font-size: 25px;
       font-weight: bold;
@@ -27,6 +33,14 @@
       border:none;
       margin-right: 10px;
       cursor: pointer;
+      transition: background-color 0.15s,
+      opacity 0.15s;
+    }
+    .button-add-to-cart:hover{
+      background-color: rgb(206, 176, 28);
+    }
+    .button-add-to-cart:active{
+      opacity: 0.7;
     }
     .button-buy-now{
       background-color: rgb(255,164,28);
